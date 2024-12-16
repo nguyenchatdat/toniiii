@@ -1,0 +1,70 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Kitty Welcome</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #ffd1dc, #ffe4e1);
+            font-family: 'Arial', sans-serif;
+        }
+
+        .container {
+            text-align: center;
+            color: #ff69b4;
+        }
+
+        .container h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .container img {
+            width: 200px;
+            height: auto;
+            animation: wave 2s infinite;
+        }
+
+        @keyframes wave {
+            0%, 100% {
+                transform: rotate(0deg);
+            }
+            50% {
+                transform: rotate(15deg);
+            }
+        }.container p {
+            font-size: 1.2rem;
+            margin-top: 20px;
+        }
+
+        .container a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: white;
+            background-color: #ff69b4;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .container a:hover {
+            background-color: #ff1493;
+        }
+    </style>
+</head>
+</body>
+    <div class="container">
+        <h1>Welcome to Hello Kitty's World!</h1>
+        <img src="https://i.pinimg.com/originals/7e/a2/12/7ea212bcc28ce926d8bea3307a0cec4b.gif"" alt="Hello Kitty waving">
+        <p>Hello Kitty is thrilled to have you here! Discover her charming adventures and enjoy every moment in her magical world.</p>
+        <a href="https://www.sanriotown.com">Explore Sanrio Town</a>
+
+       
